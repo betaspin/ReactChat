@@ -1,0 +1,20 @@
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    margin-left: -30px;
+}
+
+ul > li > span {
+    color: #33adde;
+}
+
+.usersList {
+    height: 200px;
+    width: 150px;
+    overflow-y: auto;
+    font-size: 12px;
+    background-color: #ffebd6;
+    margin-left: 5px;
+}

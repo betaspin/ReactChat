@@ -1,0 +1,25 @@
+#msgin {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul > li {
+    margin-left: -30px;
+}
+
+ul > li > span {
+    color: #33adde;
+}
+
+.messagesList {
+    height: 200px;
+    width: 500px;
+    overflow-y: auto;
+    font-size: 12px;
+    background-color: #e3f3ff;
+}
